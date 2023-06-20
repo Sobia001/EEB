@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: Futura Hv BT
+    ; /* The name you want to assign to your font */
+    src: url('../fonts/futura-hv-bt/FutuHv.ttf') format('truetype'); /* URL to your font file */
+  }
+body {
+    background: #161817 !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+* {
+    font-family: 'Futura Bk BT' !important;
+    font-style: normal !important;
+}
+
+/* ============== homepage start =================  */
+.cicle_bg_img {
+    width: 400px;
+    top: -50px;
+    left: 0px;
+}
+
+.cleaning_services_title {
+    color: red !important;
+}
+
+.eeb_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.titleText {
+    font-family: 'Futura Hv BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 69px;
+    background: linear-gradient(180deg, #FC466B -48.19%, #5972F4 82.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+
+}
+
+.join_our_team {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    background: #9947E2;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.87);
+
+}
+
+/* .you_looking_search_btn {
+    position: absolute;
+    height: 70px;
+    background: #1E201F !important;
+    opacity: 0.7;
+    border: 2px solid #FFFFFF !important;
+    top: -100px;
+} */
+.my_input {
+    width: 50%;
+    height: 60px;
+    padding: 10px 20px;
+    background: #1E201F !important;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.your_location {
+    /* position: absolute; */
+    width: 100%;
+    background: #1E201F;
+    opacity: 0.7;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    top: -160px;
+
+}
+
+.you_looking_text {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.lft_brdr {
+    border-left: 2px solid #FFFFFF;
+    height: 68px;
+    outline: none;
+}
+
+.search_btn {
+    padding: 15px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.87);
+    background: #9947E2;
+    border-radius: 15px;
+    border: none;
+
+}
+
+/* ============== homepage End =================  */
+
+/* ========= Feature Categories Start ======= */
+.back_forword_btn{
+    display: flex;
+    justify-content: end;
+}
+
+.feature_cat_title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.feature_cat_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+
+.a_tag_img {
+    position: relative;
+}
+
+.a_tag_img a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+}
+
+.a_tag_img a:after {
+    content: '';
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+    z-index: 10000;
+    border-radius: 10px;
+
+}
+
+.a_tag_img a:hover:after {
+    background-color: #B21490;
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.feature_card {
+    border-radius: 10px;
+    position: relative;
+}
+
+.img_icon_div {
+    width: 120px;
+    height: 120px;
+}
+
+.card_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+/* ========= Feature Categories Start ======= */
+
+/* ========= Gallery Services Start ======= */
+.a_tag a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+}
+
+.a_tag a:hover {
+    background-color: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+.gallery_card {
+    height: 364px;
+    background-color: #B21490;
+    border-radius: 10px;
+}
+
+.gallery_card1 {
+    background-color: #202D35;
+    border-radius: 10px;
+    height: 364px;
+}
+
+.gallery_img {
+    width: 238px;
+    height: 255px;
+    border-radius: 10px;
+}
+
+.gallery_text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+.view_all_btn {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 15px 30px;
+    background: #9947E2;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.all_btn:hover {
+    background-color: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+
+}
+
+/* ========= Gallery Services End ======= */
+
+/* ========= Request a free Quote  Start ======= */
+.reduest_free_bg_img {
+    height: 328px;
+    background: #000000;
+    background: url(../img/quotebgd.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.request_free_text {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.free_quote_btn {
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+
+}
+
+/* ========= Request a free Quote  End ======= */
+
+/* ========= Contact Us Start ======= */
+.communicat_with_us {
+    display: flex;
+}
+
+.communicat_with_us a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+}
+
+.communicat_with_us a:hover {
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+.contact_us_bgclr {
+    background: #1E201F;
+}
+
+.get_in_title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.get_in_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.icon_styling {
+    width: 54px;
+    height: 54px;
+}
+
+.contact_card_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Contact_card_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.contact_us_card {
+    width: 279px;
+    height: 100px;
+    background: #9747FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+/* ========= Contact Us End ======= */
+
+/* ========= About Us Start ======= */
+.footer_title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.my_logo {
+    width: 182px;
+    height: 67px;
+    background: #ECECEC;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+.footer_img_gallery {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.footer_card {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.get_a_quote_btn {
+    background: #9947E2;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 41px;
+    border: none;
+}
+
+.footer_navbar nav a {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.footer_navbar nav a:hover {
+    color: #9747FF;
+    transition: 0.3s;
+}
+
+.my_btm_bdr {
+    margin: 0px 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.footer_copy_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.searchBox{
+    position: absolute;
+    top: 469px;
+    width: 82%;
+}
+.sInp{
+    border:none !important;
+    background: transparent !important;
+}
+.mainSearch{
+    background: #1E201F;
+opacity: 0.7;
+border: 2px solid #FFFFFF;
+border-radius: 20px;
+}
+.look{
+    border-right: 2px solid #FFFFFF;
+}
+.sBtn{
+    background: #9947E2 !important;
+border-radius: 15px !important;
+color: #fff !important;
+font-weight: 600;
+}
+
+/* ========= About Us End ======= */
+
+/* ==================== Media Quiry ======================= */
+@media screen and (max-width:992px) {
+    .you_looking_search_btn {
+        height: auto;
+        top: 0px;
+    }
+
+    .gallery_card {
+        height: 300px;
+    }
+
+    .gallery_card1 {
+        height: 300px;
+    }
+
+    .gallery_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .communicat_with_us {
+        flex-direction: column;
+    }
+
+  
+}
+
+@media screen and (max-width:520px) {
+
+    .your_location {
+      
+        width: 100%;
+        background: #1E201F;
+        opacity: 0.7;
+        border: none;
+        border-radius: 20px;
+        top: 0px;
+    }
+
+    .feature_cat {
+        margin-top: 200px;
+    }
+
+    .search_btn {
+        width: auto;
+        height: auto;
+    }
+
+    .contact_us_card {
+        width: auto;
+    }
+
+    .footer_img_gallery {
+        justify-content: start;
+    }
+
+    .cicle_bg_img {
+        width: 200px;
+        top: -50px;
+    }
+}
+@media screen and (max-width:768px){
+.your_location{
+    border:none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.lft_brdr {
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.lInput {
+    border: 1px solid #fff;
+    border-radius: 20px;  
+    margin-bottom: 10px; 
+}
+.you_looking_text{
+    width: 100%;
+}
+.lft_brdr{
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+.searchBox{
+ 
+}
+
+}
