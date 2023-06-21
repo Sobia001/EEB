@@ -45,14 +45,29 @@ body {
 .navItem a {
     list-style: none;
     color: var(--color-3);
+    letter-spacing: 0.1em;
+}
+
+.pe-6 {
+    padding-right: 4rem;
+}
+
+@media (min-width: 992px) and (max-width: 1028px) {
+    .navItem a {
+        letter-spacing: 0em;
+    }
+
+    .pe-6 {
+        padding-right: 3rem;
+    }
 }
 
 .navItem a:hover {
-    color: var(--color-1);
+    color: var(--color-6);
 }
 
 .navItem a:active {
-    color: var(--color-6);
+    color: var(--color-6) !important;
 }
 
 .requestBtn {
