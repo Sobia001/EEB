@@ -10,9 +10,25 @@
     font-family: 'Montserrat', sans-serif !important;
 }
 
+:root {
+    --color-1: rgba(255, 255, 255, 0.87);
+    --color-2: rgba(255, 255, 255, 0.57);
+    --color-3: #FFFFFF;
+    --color-4: #B21490;
+    --color-5: #202D35;
+    --color-6: #9947E2;
+    --color-7: #ECECEC;
+    --color-8: #FC466B;
+    --color-9: #1E201F;
+    --color-10: #161817;
+    --color-11: #575757;
+    --color-12: #3531b1;
+    --color-13: #4072EA;
+}
+
 body {
-    background: #161817 !important;
-    color: rgba(255, 255, 255, 0.87) !important;
+    background: var(--color-10) !important;
+    color: var(--color-1) !important;
 }
 
 /* ============== homepage start =================  */
@@ -52,11 +68,11 @@ body {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.05em;
-    background: #9947E2;
+    background: var(--color-6);
     padding: 20px 40px;
     border-radius: 10px;
     border: none;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 
 }
 
@@ -72,7 +88,7 @@ body {
     width: 50%;
     height: 60px;
     padding: 10px 20px;
-    background: #1E201F !important;
+    background: var(--color-9) !important;
     outline: none;
     border: none;
     border-radius: 20px;
@@ -81,9 +97,9 @@ body {
 .your_location {
     /* position: absolute; */
     width: 100%;
-    background: #1E201F;
+    background: var(--color-9);
     opacity: 0.7;
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--color-3);
     border-radius: 20px;
     top: -160px;
 
@@ -93,11 +109,11 @@ body {
     font-weight: 400 !important;
     font-size: 18px !important;
     letter-spacing: 0.05em;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .lft_brdr {
-    border-left: 2px solid #FFFFFF;
+    border-left: 2px solid var(--color-3);
     height: 68px;
     outline: none;
 }
@@ -107,8 +123,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.05em;
-    color: rgba(255, 255, 255, 0.87);
-    background: #9947E2;
+    color: var(--color-1);
+    background: var(--color-6);
     border-radius: 15px;
     border: none;
 
@@ -141,7 +157,7 @@ body {
 
 .a_tag_img a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     cursor: pointer;
 }
 
@@ -158,9 +174,9 @@ body {
 }
 
 .a_tag_img a:hover:after {
-    background-color: #B21490;
+    background-color: var(--color-4);
     transition: 0.3s;
-    color: rgba(255, 255, 255, 0.87) !important;
+    color: var(--color-1) !important;
 }
 
 .feature_card {
@@ -186,24 +202,24 @@ body {
 /* ========= Gallery Services Start ======= */
 .a_tag a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     cursor: pointer;
 }
 
 .a_tag a:hover {
     background-color: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
 .gallery_card {
 
-    background-color: #B21490;
+    background-color: var(--color-4);
     border-radius: 10px;
 }
 
 .gallery_card1 {
-    background-color: #202D35;
+    background-color: var(--color-5);
     border-radius: 10px;
 
 }
@@ -229,16 +245,16 @@ body {
     font-size: 16px;
     letter-spacing: 0.1em;
     padding: 15px 30px;
-    background: #9947E2;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 
 .all_btn:hover {
-    background-color: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background-color: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 
 }
@@ -258,16 +274,16 @@ body {
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.25em;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .free_quote_btn {
-    background: #FFFFFF;
+    background: var(--color-3);
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.1em;
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--color-1);
     border-radius: 10px;
     padding: 15px 30px;
     border: none;
@@ -283,24 +299,24 @@ body {
 
 .communicat_with_us a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     cursor: pointer;
 }
 
 .communicat_with_us a:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
 .bagWhite {
-    background-color: #FFFFFF !important;
+    background-color: var(--color-3) !important;
     color: #000000 !important;
     width: 100% !important;
 }
 
 .contact_us_bgclr {
-    background: #1E201F;
+    background: var(--color-9);
 }
 
 .get_in_title {
@@ -336,7 +352,7 @@ body {
 .contact_us_card {
     width: 279px;
     height: 100px;
-    background: #9747FF;
+    background: var(--color-6);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -363,7 +379,7 @@ body {
 .my_logo {
     width: 182px;
     height: 67px;
-    background: #ECECEC;
+    background: var(--color-7);
     opacity: 0.7;
     display: flex;
     justify-content: center;
@@ -390,7 +406,7 @@ body {
 }
 
 .get_a_quote_btn {
-    background: #9947E2;
+    background: var(--color-6);
     color: rgba(255, 255, 255, 0.87);
     border-radius: 10px;
     padding: 10px 20px;
@@ -400,7 +416,7 @@ body {
 }
 
 .footer_navbar nav a {
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -408,13 +424,13 @@ body {
 }
 
 .footer_navbar nav a:hover {
-    color: #9747FF;
+    color: var(--color-6);
     transition: 0.3s;
 }
 
 .my_btm_bdr {
     margin: 0px 10px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--color-3);
 }
 
 .footer_copy_text {
@@ -448,9 +464,9 @@ border-radius: 20px;
     border-right: 2px solid #FFFFFF;
 } */
 .sBtn {
-    background: #9947E2 !important;
+    background: var(--color-6) !important;
     border-radius: 15px !important;
-    color: #fff !important;
+    color: var(--color-3) !important;
     font-weight: 600;
 }
 
@@ -488,7 +504,7 @@ border-radius: 20px;
     .your_location {
 
         width: 100%;
-        background: #1E201F;
+        background: var(--color-9);
         opacity: 0.7;
         border: none;
         border-radius: 20px;
@@ -528,12 +544,12 @@ border-radius: 20px;
     }
 
     .lft_brdr {
-        border: 1px solid #fff;
+        border: 1px solid var(--color-3);
         border-radius: 20px;
     }
 
     .lInput {
-        border: 1px solid #fff;
+        border: 1px solid var(--color-3);
         border-radius: 20px;
         margin-bottom: 10px;
     }
@@ -573,6 +589,6 @@ border-radius: 20px;
 
 .a_tag_img a:hover .complex-text {
     display: block;
-    color: White !important;
+    color: var(--color-3) !important;
 
 }
