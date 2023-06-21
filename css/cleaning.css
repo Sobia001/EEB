@@ -462,8 +462,15 @@ font-weight: 600;
 
   
 
-
-  
+ 
+    .communicat_with_us {
+        flex-direction: column;
+    }
+    .cicle_bg_img {
+        width: 400px;
+        top: 45px;
+    }
+ 
 }
 
 @media screen and (max-width:520px) {
@@ -497,7 +504,7 @@ font-weight: 600;
 
     .cicle_bg_img {
         width: 200px;
-        top: -50px;
+        top: 45px;
     }
 
     
@@ -534,8 +541,10 @@ font-weight: 600;
  display: flex;
  flex-direction: column;
 }
-.searchBox{
- 
+
+.cicle_bg_img {
+    width: 400px;
+    top: 45px;
 }
 
 }
