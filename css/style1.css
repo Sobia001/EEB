@@ -10,6 +10,17 @@
     font-family: 'Montserrat', sans-serif !important;
 }
 
+:root {
+    --color-1: rgba(255, 255, 255, 0.87);
+    --color-2: rgba(255, 255, 255, 0.57);
+    --color-3: #FFFFFF;
+    --color-4: #B21490;
+    --color-5: #202D35;
+    --color-6: #9947E2;
+    --color-7: #ECECEC;
+
+}
+
 body {
     background-color: #1E201F !important;
 }
