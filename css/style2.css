@@ -18,11 +18,17 @@
     --color-5: #202D35;
     --color-6: #9947E2;
     --color-7: #ECECEC;
+    --color-8: #FC466B;
+    --color-9: #1E201F;
+    --color-10: #161817;
+    --color-11: #575757;
+    --color-12: #3531b1;
+    --color-13: #4072EA;
 }
 
 body {
-    background: #161817 !important;
-    color: rgba(255, 255, 255, 0.87) !important;
+    background: var(--color-9) !important;
+    color: var(--color-1) !important;
 }
 
 .dropdown_bg_clr {
