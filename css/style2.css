@@ -1,8 +1,36 @@
-@font-face {
-    font-family: MyCustomFont;
-    /* The name you want to assign to your font */
-    src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype');
-    /* URL to your font file */
+/* @font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../Futura-Book-Font/FuturaRegular.otf') format('truetype') !important;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    /* font-family: 'Futura Hv BT'; */
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+:root {
+    --color-1: rgba(255, 255, 255, 0.87);
+    --color-2: rgba(255, 255, 255, 0.57);
+    --color-3: #FFFFFF;
+    --color-4: #B21490;
+    --color-5: #202D35;
+    --color-6: #9947E2;
+    --color-7: #ECECEC;
+
+    --linear-grad-1: {
+        background: linear-gradient(180deg, #FC466B -48.19%, #5972F4 82.61%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    --pink-light-bg: {
+        background: #B21490;
+        opacity: 0.6;
+    }
 }
 
 body {
@@ -12,11 +40,8 @@ body {
 
 .dropdown_bg_clr {
     background: #161817 !important;
-}
-
-* {
-    font-family: 'Futura Bk BT';
-    ;
+    position: relative;
+    z-index: 100;
 }
 
 .heroSection {
@@ -38,19 +63,19 @@ body {
 }
 
 .requestBtn {
-    border-radius: 0px !important;
-    background-color: #9947E2 !important;
+    border-radius: 0px;
+    background-color: #9947E2;
     /* width: 224px; */
-    height: fit-content !important;
+    height: fit-content;
     position: absolute;
     top: 0;
-    right: -10px;
+    right: 0;
     font-family: 'Futura Md BT';
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 16px !important;
-    line-height: 19px !important;
-    color: #fff !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
 }
 
 .requestBtn:hover {
@@ -61,6 +86,7 @@ body {
 
 .myNvabar {
     position: relative;
+    z-index: 1;
 }
 
 .aboutText {
@@ -118,6 +144,7 @@ body {
 
 .aImg {
     border-radius: 10px;
+    width: 100%;
 }
 
 .bg2 {
@@ -279,7 +306,8 @@ body {
 .gCard {
     background: #F9F9F9;
     border-radius: 10px;
-    width: 100%;
+    width: 279px;
+    height: 104px;
 }
 
 .fos9 {
@@ -294,6 +322,22 @@ body {
     /* High Blk */
 
     color: rgba(0, 0, 0, 0.87);
+}
+
+.paara {
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: nowrap;
+    /* identical to box height */
+
+
+    /* High Blk */
+
+    color: rgba(0, 0, 0, 0.87);
+
 }
 
 .fos10 {
@@ -349,8 +393,16 @@ body {
 /* ======Header Logo css start========== */
 .eeb_logo {
     width: 95px;
+    margin-left: 30px;
 }
 
+@media(max-width:768px) {
+    .eeb_logo {
+
+        margin-left: 5px;
+    }
+
+}
 
 /* ======Header Logo css End========== */
 
@@ -439,35 +491,6 @@ body {
     text-align: center;
     letter-spacing: 0.05em;
 }
-.paara{
-    font-family: 'Futura Lt BT';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-
-/* High Blk */
-
-color: rgba(0, 0, 0, 0.87);
-
-
-}
-@media only screen and (max-width: 992px){
-.requestBtn {
-    position: relative;
-    white-space: nowrap;
-}
-.gCard{
-    width: fit-content;
-}
-}
-@media only screen and (max-width: 768px){
-   .mainGcard{
-    display: flex !important;
-   }
-    }
 
 /* ========= Footer About Us End ======= */
 
