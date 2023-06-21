@@ -32,7 +32,7 @@ body {
 }
 
 .dropdown_bg_clr {
-    background: #161817 !important;
+    background: var(--color-9) !important;
     position: relative;
     z-index: 100;
 }
@@ -44,20 +44,20 @@ body {
 
 .navItem a {
     list-style: none;
-    color: #fff;
+    color: var(--color-3);
 }
 
 .navItem a:hover {
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .navItem a:active {
-    color: #9747FF;
+    color: var(--color-6);
 }
 
 .requestBtn {
     border-radius: 0px;
-    background-color: #9947E2;
+    background-color: var(--color-6);
     /* width: 224px; */
     height: fit-content;
     position: absolute;
@@ -68,12 +68,12 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #fff;
+    color: var(--color-3);
 }
 
 .requestBtn:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
@@ -94,7 +94,7 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     padding-bottom: 10rem;
 }
 
@@ -110,16 +110,16 @@ body {
 
     /* Med Wte */
 
-    color: rgba(255, 255, 255, 0.57);
+    color: var(--color-2);
 }
 
 .bg1 {
-    background-color: #1E201F;
+    background-color: var(--color-9);
     margin-top: -8px
 }
 
 .bg3 {
-    background-color: #1E201F;
+    background-color: var(--color-9);
     margin-top: -16px
 }
 
@@ -132,7 +132,7 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .aImg {
@@ -141,7 +141,7 @@ body {
 }
 
 .bg2 {
-    background-color: #161817;
+    background-color: var(--color-10);
     margin-top: -8px
 }
 
@@ -158,7 +158,7 @@ body {
 
     /* Med Wte */
 
-    color: rgba(255, 255, 255, 0.57);
+    color: var(--color-2);
 }
 
 .fos4 {
@@ -173,7 +173,7 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 
 
 }
@@ -187,7 +187,7 @@ body {
 
     /* Med Wte */
 
-    color: rgba(255, 255, 255, 0.57);
+    color: var(--color-2);
 }
 
 .bgImage {
@@ -209,17 +209,17 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .quoteBtn {
-    background: #FFFFFF;
+    background: var(--color-3);
     border-radius: 10px;
 }
 
 .quoteBtn:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
@@ -238,14 +238,14 @@ body {
 
 /* join our team css */
 .viewJob {
-    background: #9947E2;
+    background: var(--color-6);
     border-radius: 10px;
     color: #fff;
 }
 
 .viewJob:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
@@ -261,7 +261,7 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 
 }
 
@@ -293,11 +293,11 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .gCard {
-    background: #F9F9F9;
+    background: var(--color-3);
     border-radius: 10px;
     width: 279px;
     height: 104px;
@@ -314,7 +314,7 @@ body {
 
     /* High Blk */
 
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--color-1);
 }
 
 .paara {
@@ -329,7 +329,7 @@ body {
 
     /* High Blk */
 
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--color-1);
 
 }
 
@@ -344,7 +344,7 @@ body {
 
     /* High Blk */
 
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--color-1);
 }
 
 .fos11 {
@@ -361,25 +361,25 @@ body {
 
     /* High Wte */
 
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
 }
 
 .cInput {
-    background: #1E201F;
+    background: var(--color-9);
     border-radius: 10px;
     border: none;
 }
 
 .subBtn {
-    background: #4072EA;
+    background: var(--color-13);
     border-radius: 10px;
-    color: #fff;
+    color: var(--color-3);
     font-weight: 400;
 }
 
 .subBtn:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
@@ -417,7 +417,7 @@ body {
 .my_logo {
     width: 182px;
     height: 67px;
-    background: #ECECEC;
+    background: var(--color-7);
     opacity: 0.7;
     display: flex;
     justify-content: center;
@@ -444,8 +444,8 @@ body {
 }
 
 .get_a_quote_btn {
-    background: #9947E2;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-6);
+    color: var(--color-1);
     border-radius: 10px;
     padding: 10px 20px;
     width: 150px;
@@ -454,13 +454,13 @@ body {
 }
 
 .get_a_quote_btn:hover {
-    background: #B21490;
-    color: rgba(255, 255, 255, 0.87);
+    background: var(--color-4);
+    color: var(--color-1);
     transition: 0.3s;
 }
 
 .footer_navbar nav a {
-    color: rgba(255, 255, 255, 0.87);
+    color: var(--color-1);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -468,13 +468,13 @@ body {
 }
 
 .footer_navbar nav a:hover {
-    color: #9747FF;
+    color: var(--color-6);
     transition: 0.3s;
 }
 
 .my_btm_bdr {
     margin: 0px 10px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--color-3);
 }
 
 .footer_copy_text {
