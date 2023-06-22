@@ -132,6 +132,31 @@ body {
 
 /* ============== homepage End =================  */
 
+.owl-carousel {
+    /* Owl Carousel styles */
+}
+
+.custom-owl-dots {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-owl-dots .owl-dot.active {
+    background-color: purple;
+}
+
 /* ========= Feature Categories Start ======= */
 .back_forword_btn {
     display: flex;
