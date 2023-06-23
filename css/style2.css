@@ -295,6 +295,9 @@ body {
 .contactBg {
     background: url('../images/contactbg.png');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
 }
 
 .fos8 {
