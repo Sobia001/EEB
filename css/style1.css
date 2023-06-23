@@ -866,3 +866,8 @@ hr {
         margin-top: 5rem;
     }
 }
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--color-6);
+}

@@ -27,6 +27,7 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif !important;
     background: var(--color-9) !important;
     color: var(--color-1) !important;
 }
@@ -40,6 +41,9 @@ body {
 .heroSection {
     background: url('../images/aboutHero.png');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
 }
 
 .navItem a {
@@ -98,11 +102,10 @@ body {
 }
 
 .aboutText {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 69px;
+    margin: 4rem auto;
     /* identical to box height, or 172% */
 
     letter-spacing: 0.1em;
@@ -110,15 +113,13 @@ body {
     /* High Wte */
 
     color: var(--color-1);
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
 }
 
 .fos1 {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 25px;
     /* identical to box height */
 
     letter-spacing: 0.1em;
@@ -139,8 +140,6 @@ body {
 }
 
 .fos2 {
-    font-family: 'Futura Hv BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -161,8 +160,6 @@ body {
 }
 
 .fos3 {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -177,12 +174,9 @@ body {
 }
 
 .fos4 {
-
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 25px;
     /* identical to box height */
 
 
@@ -194,8 +188,6 @@ body {
 }
 
 .fos5 {
-    font-family: 'Futura Lt BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -208,12 +200,16 @@ body {
 .bgImage {
     background: url('../images/quoteImg.png');
     background-size: cover;
-    margin-top: -8px;
+    /* margin-top: -8px; */
+    height: 400px;
+    display: flex;
+}
+
+.free__quote__section {
+    margin: auto;
 }
 
 .fos6 {
-    font-family: 'Futura Bk BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -265,8 +261,6 @@ body {
 }
 
 .jobText {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 69px;
@@ -298,8 +292,6 @@ body {
 }
 
 .fos8 {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -319,8 +311,6 @@ body {
 }
 
 .fos9 {
-    font-family: 'Futura Md BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -333,8 +323,6 @@ body {
 }
 
 .paara {
-    font-family: 'Futura Lt BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -349,8 +337,6 @@ body {
 }
 
 .fos10 {
-    font-family: 'Futura Lt BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -363,10 +349,6 @@ body {
 }
 
 .fos11 {
-    /* Head */
-
-    font-family: 'Futura Hv BT';
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
