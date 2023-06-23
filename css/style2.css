@@ -279,10 +279,16 @@ body {
 }
 
 /* service page css */
-.sbg1 {
+/* .sbg1 {
     background: url('../images/servicebg.png');
     background-size: cover;
 
+
+} */
+
+.py-6 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 /* contact page css */
@@ -491,4 +497,17 @@ body {
         justify-content: start;
     }
 
+}
+
+.p__imgg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.p__imgg img {
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
 }
