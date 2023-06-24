@@ -1,13 +1,14 @@
 $(document).ready(function () {
-    // Listen for checkbox change event
-    $('.form__check__input').change(function () {
-        // Check if the checkbox is checked
-        if ($(this).is(':checked')) {
-            // Change the background color of the parent div
-            $(this).closest('.form__check').css('background-color', '#9947E2');
+    $(".form__check").click(function () {
+        var checkbox = $(this).find(".form-check-input");
+        var isChecked = checkbox.prop("checked");
+
+        checkbox.prop("checked", !isChecked);
+
+        if (!isChecked) {
+            $(this).css("background-color", "#9947E2");
         } else {
-            // Revert the background color of the parent div to the default
-            $(this).closest('.form__check').css('background-color', '');
+            $(this).css("background-color", "");
         }
     });
 });
