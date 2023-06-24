@@ -514,3 +514,27 @@ body {
     object-fit: cover;
     background-size: cover;
 }
+
+.card___card {
+    background: var(--color-3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card___inner a {
+    text-decoration: none;
+    color: var(--color-10);
+    cursor: pointer;
+}
+
+.card___inner {
+    display: flex;
+}
+
+.card___inner a:hover {
+    background: var(--color-11);
+    color: var(--color-3);
+    transition: 0.3s;
+}

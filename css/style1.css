@@ -871,3 +871,9 @@ hr {
 .nav-link:hover {
     color: var(--color-6);
 }
+
+.cInput:focus {
+    border: 1px solid var(--color-7) !important;
+    outline: 0;
+    box-shadow: none;
+}
