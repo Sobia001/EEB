@@ -462,7 +462,7 @@ hr {
 }
 
 .form___select:focus {
-    border-color: var(--color-10);
+    border: 1px solid var(--color-7);
     outline: 0;
     box-shadow: none;
 }
@@ -483,7 +483,7 @@ hr {
 .form-control:focus {
     color: var(--color-2);
     background-color: var(--color-10);
-    border-color: var(--color-10);
+    border: 1px solid var(--color-7);
     outline: 0;
     box-shadow: none;
 }
@@ -526,6 +526,12 @@ hr {
     color: var(--color-2);
 }
 
+.form__btn__1:hover {
+    background: var(--color-13);
+    border-color: var(--color-13);
+    color: var(--color-2);
+}
+
 .form__btn__2 {
     background: var(--color-13);
     border-radius: 10px;
@@ -536,6 +542,12 @@ hr {
     line-height: 19px;
     letter-spacing: 0.05em;
     color: var(--color-2);
+}
+
+.form__btn__2:hover {
+    background: var(--color-6);
+    color: var(--color-3);
+    border: 1px solid var(--color-6);
 }
 
 
